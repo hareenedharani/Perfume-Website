@@ -1,0 +1,225 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4; 
+}
+
+.nav-left, .nav-center, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left {
+    position: relative;
+    flex: 1;
+}
+
+.nav-center {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-right {
+    flex: 1;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+}
+
+.menu-icon {
+    color: black;
+    stroke: black;
+    stroke-width: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav-logo img {
+    height: 70px;
+    filter: invert(1);
+}
+
+.nav-icons {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    left: 0;
+    height: auto; /* Adjusted height */
+    width: 200px;
+    top: 40px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.nav-menu.open {
+    display: flex;
+    flex-direction: column; /* Ensuring items stack vertically */
+}
+
+.nav-menu li {
+    cursor: pointer;
+}
+
+.nav-menu li hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #000;
+}
+
+.black-border {
+    color: black;
+    stroke: black;
+    stroke-width: 2px;
+    width: 30px;
+    height: 40px;
+}
+
+.fa-shopping-bag {
+    color: transparent;
+    stroke-width: 33px;
+    stroke: rgb(0, 0, 0);
+    width: 30px;
+    height: 40px;
+}
+
+.profile-icon1 {
+    color: black;
+    stroke: black;
+    width: 30px;
+    height: 30px;
+}
+
+.profile-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.profile-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 8px 0;
+    width: 160px;
+    z-index: 10;
+    display: none;
+    list-style-type: none;
+}
+
+.profile-dropdown-menu.open {
+    display: block;
+}
+
+.profile-dropdown-menu li {
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.profile-dropdown-menu button {
+    background: none;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.profile-dropdown-menu button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Media query for screens with a maximum width of 450px */
+@media (max-width: 450px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .hamburger-menu {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    .nav-center {
+        order: 0;
+        margin-bottom: 0;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-left, .nav-right {
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    .nav-icons {
+        list-style: none;
+        align-items: center;
+        display: flex;
+        gap: 15px;
+    }
+
+    .nav-logo img {
+        height: 50px;
+    }
+
+    .nav-menu {
+        top: 50px; /* Adjusted top position */
+        width: 100%; /* Full width on smaller screens */
+        box-shadow: none; /* Remove shadow for simplicity */
+        background-color: #f4f4f4; /* Background color of navbar */
+        padding: 10px 20px; /* Padding similar to navbar */
+        border-bottom: 1px solid #ddd; /* Separation line */
+    }
+
+    .nav-menu.open {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: auto; /* Auto width to fit content */
+        background-color: #f4f4f4; /* Background color of navbar */
+        padding: 10px 20px; /* Padding similar to navbar */
+        border-bottom: 1px solid #ddd; /* Separation line */
+    }
+
+    .nav-menu li {
+        width: 100%; /* Full width items */
+        padding: 10px 0; /* Vertical padding */
+        text-align: center; /* Center align text */
+    }
+
+    .nav-menu li hr {
+        display: none; /* Hide horizontal rule */
+    }
+}

@@ -1,0 +1,365 @@
+.form-container {
+    padding: 20px;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .radio-group input[type="radio"] {
+    width: 16%;
+  }
+  
+  .radio-group input[type="text"] {
+    margin-left: 5px;
+    width: auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    width: 42%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 230px;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #444;
+  }
+  
+  .create-account-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form-group-mark {
+    margin-bottom: 15px;
+  }
+  
+  .form-group-mark label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-top: 32px;
+  }
+  
+  .form-group-mark input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .password-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    border: none;
+    padding: 20px 0;
+  }
+  
+  .password-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 0;
+  }
+  
+  .profile-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    height: 134px;
+    border-radius: 50%;
+    background-color: #d7d7d7;
+  }
+  
+  .profile-icon1 {
+    font-size: 60px;
+    color: black;
+  }
+  
+  .password-inputs {
+    flex-grow: 1;
+  }
+  
+  .password-inputs h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-group-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 79%;
+    gap: 9%;
+  }
+  
+  .form-group-mobile {
+    margin-bottom: 15px;
+  }
+  
+  .form-group-mobile label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: medium;
+  }
+  
+  .form-group-mobile input {
+    width: 156%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form-group-alt {
+    margin-bottom: 15px;
+  }
+  
+  .form-group-alt label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: medium;
+  }
+  
+  .form-group-alt input {
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .state-dist {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+  }
+  
+  .form-group-state {
+    margin-bottom: 15px;
+  }
+  
+  .form-group-state label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: medium;
+  }
+  
+  .form-group-state input {
+    width: 95%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form-group-dist {
+    margin-bottom: 15px;
+  }
+  
+  .form-group-dist label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: medium;
+  }
+  
+  .form-group-dist input {
+    width: 108%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .city-pin {
+    display: flex;
+    flex-direction: row;
+    gap: 32%;
+  }
+  
+  .form-group-city {
+    margin-bottom: 15px;
+  }
+  
+  .form-group-city label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: medium;
+  }
+  
+  .form-group-city input {
+    width: 174%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form-group-pin {
+    margin-bottom: 15px;
+  }
+  
+  .form-group-pin label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: medium;
+  }
+  
+  .form-group-pin input {
+    width: 103%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .first-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    gap: 2%;
+  }
+  
+  .second-section {
+    border: 5px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    padding: 23px;
+    height: 525px;
+  }
+  
+  .third-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2%;
+  }
+  
+  .delivery-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 525px;
+    padding: 23px;
+    justify-content: space-between;
+    border: 5px solid #ccc;
+  }
+  
+  @media (max-width: 450px) {
+    .create-account-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .first-section {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    .second-section,
+    .delivery-section {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .form-group-sub,
+    .state-dist,
+    .city-pin {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .submit-button {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .form-group,
+    .form-group-mark,
+    .form-group-mobile,
+    .form-group-alt,
+    .form-group-state,
+    .form-group-dist,
+    .form-group-city,
+    .form-group-pin {
+      width: 100%;
+    }
+  
+    .form-group input,
+    .form-group-mark input,
+    .form-group-mobile input,
+    .form-group-alt input,
+    .form-group-state input,
+    .form-group-dist input,
+    .form-group-city input,
+    .form-group-pin input {
+      width: 100%;
+    }
+  
+    .password-section,
+    .password-section2 {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    .profile-icon-container {
+      width: 100%;
+      height: auto;
+    }
+  
+    .radio-group {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .radio-group input[type="radio"] {
+      width: auto;
+    }
+  }
+  

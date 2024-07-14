@@ -1,0 +1,77 @@
+.card {
+  width: 180px; /* Adjust width */
+  height: 220px; /* Adjust height */
+  padding: 0.8em; /* Reduce padding */
+  border: 1px solid #ccc; /* Border */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: shadow */
+  border-radius: 5px; /* Optional: border radius */
+  background-color: #fff; /* Background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  justify-content: center; /* Center content vertically */
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.product {
+  text-align: center;
+  perspective: 1000px; /* Add perspective */
+}
+
+.product img {
+  width: 90px; /* Adjust width */
+  height: 40px; /* Adjust height to fit the new card size */
+  border: none; /* Border */
+  border-radius: 5px; /* Optional: border radius */
+  margin-bottom: 5px; /* Reduce space between image and content */
+} 
+.product-image-sl img{
+  display: flex;
+  border: none;
+  
+}
+.product h2 {
+  font-size: 0.75em; /* Reduce font size */
+  margin: 0.25em 0; /* Adjust margin for spacing */
+}
+
+.product p {
+  font-size: 0.75em; /* Reduce font size */
+  margin: 0.25em 0; /* Adjust margin for spacing */
+}
+
+.product-image-container {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.product-image-container:hover {
+  transform: rotateY(50deg) rotateX(50deg); 
+}
+
+
+
+.product-image-container:hover .product-image {
+  transform: scale(1.1); 
+}
+.exclusive-title {
+  font-size: 23px;
+  line-height: 16px;
+  margin-bottom: 20px; /* adjust this value to control the gap */
+}
+
+
+.Exclusive{
+  margin-bottom: 56px;
+}
+
+.product-details-sl{
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

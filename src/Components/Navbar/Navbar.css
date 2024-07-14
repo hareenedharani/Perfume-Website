@@ -1,0 +1,56 @@
+/*
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-center {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 300; 
+    color: #222; 
+    filter: invert(1);
+  }
+  
+  
+  .navbar-logo-icon {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .navbar-logo-text {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .navbar-icon {
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #000; 
+  }
+  
+  .navbar-icon:first-of-type {
+    margin-left: 0;
+  }
+  .review-stars .black-border {
+    color: black;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+
+*/
